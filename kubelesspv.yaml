@@ -16,7 +16,7 @@ spec:
     - hard
     - nfsvers=4
   nfs:
-    path: /var/nfs/kubelesspv
+    path: /var/nfs/kubelesspv/kafka
     server: 10.0.2.11
 ---
 apiVersion: v1
@@ -36,5 +36,5 @@ spec:
     - hard
     - nfsvers=4
   nfs:
-    path: /var/nfs/kubelesspv
+    path: /var/nfs/kubelesspv/zoo
     server: 10.0.2.11
